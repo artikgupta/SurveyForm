@@ -31,6 +31,12 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
 p {
   font-size: 1rem;
 }
@@ -55,11 +61,12 @@ form {
   display: block;
   margin-top: 0em;
 }
-#survey-form {
+
+ form {
   background-color: rgba(27, 27, 50, 0.8);
-  padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
-  margin: auto 15rem;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+    margin:auto 15rem;
 }
 .form-group {
   margin: 0 auto 1.25rem auto;
@@ -70,6 +77,12 @@ label {
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
+}
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
 }
 .form-control {
   display: block;
@@ -100,4 +113,13 @@ label {
 }
 button {
   border: none;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
 }
