@@ -32,7 +32,7 @@ body::before {
   background-position: center;
 }
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -59,7 +59,7 @@ form {
   background-color: rgba(27, 27, 50, 0.8);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
-  margin: auto 20rem;
+  margin: auto 15rem;
 }
 .form-group {
   margin: 0 auto 1.25rem auto;
